@@ -1,0 +1,130 @@
+body {
+    background-color: #eceff1;
+    font-family: arial;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#content {
+}
+
+.navbar-bg {
+    background: #424242;
+}
+
+#navbar {
+}
+
+.nav {
+    display: flex;
+    width: min-content;
+    width: -moz-min-content;
+    margin: 0 0 0 auto;
+}
+
+.block {
+    margin: 25pt 0;
+}
+
+.button {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transform-origin: center !important;
+    align-self: center;
+}
+
+.button:hover {
+    box-shadow: inset 0 0 20px 30px rgba(255, 255, 255, .25);
+}
+
+.button:active, .icon:active {
+    transform: scale(.75);
+    border-radius: 8pt;
+}
+
+.icon {
+    background: url(../img/icon.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 4px 0;
+    position: absolute;
+    transform-origin: center;
+}
+
+ul {
+    padding: 0;
+    color: #000;
+    display: inline-grid;
+}
+
+marquee {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+    background-color: #fafafa;
+}
+
+img.marquee {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+    margin-right: 5em;
+}
+
+img.logo {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+}
+
+p {
+    text-align: justify;
+}
+
+big {
+    margin: 5pt 0;
+}
+
+
+.info {
+    width: 100%;
+    display: inline-grid;
+}
+
+hr {
+    width: 100%;
+    display: flex;
+}
+
+* {
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transform-origin: bottom;
+    -webkit-transition: .25s cubic-bezier(0.4, 0, 0.2, 1);
+       -moz-transition: .25s cubic-bezier(0.4, 0, 0.2, 1);
+        -ms-transition: .25s cubic-bezier(0.4, 0, 0.2, 1);
+         -o-transition: .25s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: .25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slide-up {
+    from {
+        -webkit-transform: scale(1.1) translateY(150pt);
+           -moz-transform: scale(1.1) translateY(150pt);
+            -ms-transform: scale(1.1) translateY(150pt);
+             -o-transform: scale(1.1) translateY(150pt);
+                transform: scale(1.1) translateY(150pt);
+                opacity: 0;
+    }
+    to {
+        -webkit-transform: none;
+           -moz-transform: none;
+            -ms-transform: none;
+             -o-transform: none;
+                transform: none;
+                opacity: 1;
+    }
+}
