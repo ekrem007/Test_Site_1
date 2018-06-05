@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>My site</title>
-        <link rel="stylesheet" type="text/css" href="res/css/main.css">
-        <link rel="stylesheet" media="screen and (min-width: 900px)" href="res/css/screens/widescreen.css">
-        <link rel="stylesheet" media="screen and (max-width: 600px)" href="res/css/screens/smallscreen.css">
-        <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    </head>
-    <body>
-        <div class="navbar-bg">
-            <div id="navbar" class="container">
-                <a class="icon" href="#"></a>
-                <div class="nav">
-                    <a class="button" href="#">Anasayfa</a>
-                    <hr>
-                    <a class="button" href="hakkinda.html">Hakkında</a>
-                    <hr>
-                    <a class="button" href="iletisim.html">İletişim</a>
-                </div>
-            </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>My site</title>
+  <link rel="stylesheet" type="text/css" href="res/css/main.css">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="res/css/screens/widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="res/css/screens/smallscreen.css">
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+</head>
+
+<body>
+  <div class="navbar-bg">
+    <div id="navbar" class="container">
+      <a class="icon" href="#"></a>
+      <div class="nav">
+        <a class="button" href="#">Anasayfa</a>
+        <hr>
+        <a class="button" href="hakkinda.html">Hakkında</a>
+        <hr>
+        <a class="button" href="iletisim.html">İletişim</a>
+      </div>
+    </div>
+  </div>
+  <div id="content" class="container">
+    <div class="block">
+      <marquee height="50%">
+        <div>
+          <img class="marquee" src="res/img/logo.png" />
+          <img class="marquee" src="res/img/img_1.png" />
+          <img class="marquee" src="res/img/img_2.png" />
         </div>
-        <div id="content" class="container">
-            <div class="block">
-                <marquee height="50%">
-                <div>
-                    <img class="marquee" src="res/img/logo.png"/>
-                    <img class="marquee" src="res/img/img_1.png"/>
-                    <img class="marquee" src="res/img/img_2.png"/>
-                </div>
-                </marquee>
-            </div>
-        </div>
-        <script src="res/js/main.js"></script>
-    </body>
+      </marquee>
+    </div>
+  </div>
+  <script src="res/js/main.js"></script>
+</body>
+
 </html>
