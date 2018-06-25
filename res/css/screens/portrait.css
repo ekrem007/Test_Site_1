@@ -1,13 +1,28 @@
 #content {
-  margin-top: 88px;
+  margin-top: 20%;
+}
+
+a, .block {
+  zoom: 2;
+}
+
+h2, p {
+  zoom: .5;
 }
 
 .navbar-bg {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(66, 66, 66, 0.90);
-  backdrop-filter: blur(20px);
+}
+
+.material-icons {
+  zoom: 3;
+  display: block !important;
+}
+
+.button, hr {
+  display: none !important;
 }
 
 img.logo {
